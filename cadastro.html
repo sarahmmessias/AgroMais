@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body class="body">
+    
+
+    <nav class="navbar bg-dark navbar-dark navbar expand-lg">
+        <div class="container">
+            <a href="index.html" class="navbar-brand"><img src="src/logo-removebg-preview.png" alt=""></a>
+
+            <p class="nav-text">Agro+</p>
+
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a href="index.html" class="nav-link" id="navlink">Home</a></li>
+                    <li class="nav-item"><a href="cadastro.html" class="nav-link">Cadastro</a></li>
+                    <li class="nav-item"><a href="login.html" class="nav-link">Login</a></li>
+                    <li class="nav-item"><a href="perfilprodutor.html" class="nav-link">Perfil</a></li>
+                </ul>
+
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <p class="text-center"></p>
+            <p class="text-main-cadastro">Cadastro</p>
+        </p>
+
+        <div class="fb-cadastro">
+        <ul id="ul-cadastro1">
+            <li class="li-cred"><p class="info-text">Cadastre-se como:</p>
+                <select id="std-select">
+                <option value="produtor">Produtor</option>
+                <option value="empresa">Empresa</option>
+            </select></li>
+            <li class="li-cred"><p class="info-text">Email:</p>
+                <input class="input-cred" type="email"></li>
+            <li class="li-cred"><p class="info-text">Senha:</p>
+                <input class="input-cred" type="password"></li>
+        </ul>
+
+        <ul id="ul-cadastro2">
+        <li class="li-cred"><p class="info-text">Nome completo:</p>
+            <input type="text"class="input-cred"></li>
+        <li class="li-cred"><p class="info-text">CPF/CNPJ:</p>
+            <input type="text" class="input-cred"></li>
+        <li class="li-cred"><p class="info-text">CEP:</p>
+            <input type="text" class="input-cred"></li>
+        </ul>
+
+        <div id="btn-cadastro">
+            <button class="btn btn-outline-success">Cadastrar</button>
+        </div>
+        <div>
+            <img src="src/logo-removebg-preview.png" id="logo-cadastro">
+        </div>
+        </div>
+        
+        <footer class="rodape">
+            <p class="rodape-paragrafo"> Copyright &copy; Todos os direitos reservados aos criadores</p>
+        </footer>
+    </div>
+
+
+
+    <script src="js/scriptmain.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.6.1.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="https://cdnjs.com/libraries/Chart.js"></script>
+</body>
+</html>

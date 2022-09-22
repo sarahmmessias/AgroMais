@@ -1,0 +1,223 @@
+*{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.body{
+    overflow-x: hidden;
+    color: #cfe1b9;
+    background-color: #cfe1b9;
+}
+
+.navbar{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #cfe1b9;
+    letter-spacing: 0.1rem;
+    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .1);
+}
+
+.p-image-index{
+    justify-content: center;
+}
+
+.img-index{
+    border-radius: 1rem;
+    justify-content: center;
+    width: 80% ;
+    margin-left: 10%;
+}
+
+
+.navbar-brand img{
+    height: 10rem;
+}
+
+.nav-text{
+    font-size: 3rem;
+}
+
+.text-main{
+    font-size: 2.6rem;
+    letter-spacing: 00.1rem;
+    font-weight: bold;
+    color: #414833;
+}
+
+.text-main-cadastro{
+    font-size: 2rem;
+    letter-spacing: 00.1rem;
+    padding-left: 50%;
+    padding-right: 50%;
+    color: #414833;
+    font-weight: bold;
+}
+
+.info-text{
+    font-size: 1.2rem;
+    letter-spacing: .1rem;
+    color: #414833;
+    text-align: justify;
+}
+
+.rodape {
+    font-size: 1.2rem;
+    letter-spacing: .1rem;
+    color: #414833;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+#std-select{
+    color: #16370B;
+    background-color: transparent;
+}
+
+.input-cred{
+    color: #16370B;
+    background-color: transparent;
+    border:0;
+    border-bottom:1px solid #555;  
+    background:transparent;
+    width:20rem;
+    padding:8px 0 5px 0;
+    font-size:16px;
+}
+
+.li-cred{
+    position:relative;
+	margin-bottom:25px;
+}
+
+.li-login{
+    margin-left: 30%;
+}
+
+.fb-cadastro{
+    display: flex;
+    justify-content: center;
+}
+
+.fb-login{
+    display: flex;
+    margin-left: 25%;
+}
+
+.fb-perfil{
+    display: inline-flex;
+    width: 550px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.perfil-tab{
+    padding-top: 1rem;
+    display: flow-root;
+    background-color: #344e41;
+    padding-right: 10%;
+    border-radius: 1rem;
+    align-items: center;
+}
+
+.user-icon{
+    margin-left: 52%;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+}
+
+.perfil-list{
+    margin-top: 3rem;
+
+}
+
+.perfil-item-list{
+    position:relative;
+
+}
+
+.text-perfil{
+    font-size: 1.2rem;
+    letter-spacing: .1rem;
+    color: #cfe1b9;
+}
+
+.cont-perfil {
+    gap: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.produtos {
+    margin-top: 3%;
+    background-color: #344e41;
+    flex-direction: column;
+    padding: 1rem;
+    display: flow-root;
+    border-radius: 1rem;
+    width: 610px;
+}
+
+.cont-img-text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 580px;
+    background-color: #cfe1b9;
+    border-radius: 1rem;
+    padding: 10px;
+    gap: 1rem;
+}
+
+
+.cont-produtos {
+    color:#344e41;
+    text-align: center;
+}
+
+
+.produtos h1 {
+    color: #cfe1b9;
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.produtos img {
+    width: 300px;
+    height: 220px;
+    border-radius: 30px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+#btn-cadastro{
+    margin-top: 20%;
+    margin-left: 32px;
+    color: #414833
+}
+
+#ul-cadastro2{
+    margin-top: 12px;
+}
+
+#logo-cadastro{
+    height: 32rem;
+}
+
+#btn-login{
+    margin-left: 30%;
+}
+
+
+@media(max-width:1199.98px){
+
+}
+
+@media(max-width:767.98px){
+
+}

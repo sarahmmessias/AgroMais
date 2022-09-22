@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body class="body">
+    <nav class="navbar bg-dark navbar-dark navbar expand-lg">
+        <div class="container">
+            <a href="index.html" class="navbar-brand"><img src="src/logo-removebg-preview.png" alt=""></a>
+
+            <p class="nav-text">Agro+</p>
+
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a href="index.html" class="nav-link" id="navlink">Home</a></li>
+                    <li class="nav-item"><a href="cadastro.html" class="nav-link">Cadastro</a></li>
+                    <li class="nav-item"><a href="login.html" class="nav-link">Login</a></li>
+                    <li class="nav-item"><a href="perfilprodutor.html" class="nav-link">Perfil</a></li>
+                    
+                </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <p class="text-center">
+            <p class="text-main-cadastro">Login</p>
+        </p>
+
+        <div class="fb-login">
+            <ul>
+                <li class="li-cred li-login"><p class="info-text">Nome:</p>
+                    <input class="input-cred" type="text" id="login-nome"></li>
+                <li class="li-cred li-login"><p class="info-text">Senha:</p>
+                    <input class="input-cred" type="password" id="login-password"></li>
+                <li><button id="btn-login" onclick="login()" class="btn btn-outline-success">Login</button></li>
+            </ul>
+
+            <img src="src/logo-removebg-preview.png" id="logo-cadastro">
+
+        </div>
+    </div>
+
+    <footer class="rodape">
+        <p class="rodape-paragrafo"> Copyright &copy; Todos os direitos reservados aos criadores</p>
+    </footer>
+
+    <script src="js/scriptmain.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.6.1.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="https://cdnjs.com/libraries/Chart.js"></script>
+</body>
+</html>
